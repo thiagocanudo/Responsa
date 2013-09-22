@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsa.css">
         <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
-
+        <link rel="icon" type="image/png" href="http://www.thiagocanudo.com.br/responsa/favicon.ico"> 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="color3">
