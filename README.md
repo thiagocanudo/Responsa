@@ -1,7 +1,7 @@
 Responsa!
-========
+=========
 
 Multiple Responsive Browser Tests
 
-Do you make Responsive Design test just in one place.
-Faça seu teste de Design Responsivo com varias resoluções em um só lugar.
+Make Responsive Design tests in just one place.
+Faça seu teste de Design Responsivo com várias resoluções em um só lugar.
