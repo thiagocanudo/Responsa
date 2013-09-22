@@ -3,5 +3,5 @@ Responsa
 
 Multiple Responsive Browser Tests
 
-Create, customizing and generate your Twitter Bootstrap Buttons code.
-Crie e customize sus botões do Bootsatrap
+Do you make Responsive Design test just in one place.
+Faça seu teste de Design Responsivo com varias resoluções em um só lugar.
