@@ -15,6 +15,14 @@
         <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
         <link rel="icon" type="image/png" href="http://www.thiagocanudo.com.br/responsa/favicon.ico?v=02">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <meta property="og:title" content="Responsa - Testes para desenvolvimento responsivo" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://thiagocanudo.com.br/responsa/" />
+        <meta property="og:image" content="http://thiagocanudo.com.br/responsa/images/ico/facebook.png" />
+        <meta property="og:site_name" content="Responsa" />
+        <meta property="og:description" content="Desenvolva sites responsivos e teste várias resoluções diferentes no mesmo browser." />
+
     </head>
     <body class="color3">
         <!--[if lt IE 7]>
@@ -34,6 +42,7 @@
                     <li><a id="bt240" href="javascript:;"><span></span>240</a></li>
                     <li><a id="bt320" href="javascript:;"><span></span>320</a></li>
                     <li><a id="bt480" href="javascript:;"><span></span>480</a></li>
+                    <li><a id="bt640" href="javascript:;"><span></span>640</a></li>
                     <li><a id="bt768" href="javascript:;"><span></span>768</a></li>
                     <li><a id="bt1024" href="javascript:;"><span></span>1024</a></li>
                 </ul>
@@ -56,6 +65,7 @@
                 <div class="device w240px"><span id="d240">240px</span><iframe class="" width="240" height="550" src="about:blank">w240px</iframe></div>
                 <div class="device w320px"><span id="d320">320px</span><iframe class="" width="320" height="550" src="about:blank">w320px</iframe></div>
                 <div class="device w480px"><span id="d480">480px</span><iframe class="" width="480" height="550" src="about:blank">w480px</iframe></div>
+                <div class="device w640px"><span id="d640">640px</span><iframe class="" width="640" height="550" src="about:blank">w640px</iframe></div>
                 <div class="device w768px"><span id="d768">768px</span><iframe class="" width="768" height="550" src="about:blank">w768px</iframe></div>
                 <div class="device w1024px"><span id="d1024">1024px</span><iframe class=" " width="1024" height="550" src="about:blank">w1024px</iframe></div>
             </section>
