@@ -95,6 +95,7 @@ body{
         background-repeat: repeat-x;
 
         #top{
+            position: relative;
             width: 100%;
             height: 80px;
             //margin-left: @mLeftDefault;
@@ -104,9 +105,13 @@ body{
             h1{
                 width: 340px;
                 height: 62px;
+                overflow: hidden;
+                text-indent: -999px;
                 margin:10px 0 0 @mLeftDefault;
                 background: url(@sprite) -187px -22px;
             }
+
+            #likeFb{position:absolute;top:20px;left:860px;width:100px;height:30px;}
         }
         form{
             display: block;
