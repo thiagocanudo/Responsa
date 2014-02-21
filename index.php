@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Responsa - Multiple Browsers Test</title>
-        <meta name="description" content="">
+        <title>Responsa - Responsive Design Test</title>
+        <meta name="description" content="responsive design test">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -62,12 +62,14 @@
 
         <div id="deck" class="clearfix">
             <section class="clearfix">
-                <div class="device w240px"><span id="d240">240px</span><iframe class="" width="240" height="550" src="about:blank">w240px</iframe></div>
-                <div class="device w320px"><span id="d320">320px</span><iframe class="" width="320" height="550" src="about:blank">w320px</iframe></div>
-                <div class="device w480px"><span id="d480">480px</span><iframe class="" width="480" height="550" src="about:blank">w480px</iframe></div>
-                <div class="device w640px"><span id="d640">640px</span><iframe class="" width="640" height="550" src="about:blank">w640px</iframe></div>
-                <div class="device w768px"><span id="d768">768px</span><iframe class="" width="768" height="550" src="about:blank">w768px</iframe></div>
-                <div class="device w1024px"><span id="d1024">1024px</span><iframe class=" " width="1024" height="550" src="about:blank">w1024px</iframe></div>
+                <div class="device w240px"><a id="b240" href="">refresh</a><span id="d240">240px</span><iframe id="i240" class="" width="240" height="550" src="about:blank">w240px</iframe></div>
+                
+                <div class="device w320px"><a id="b320" href="">refresh</a><span id="d320">320px</span><iframe id="i320" class="" width="320" height="550" src="about:blank">w320px</iframe></div>
+                <div class="device w480px"><a id="b480" href="">refresh</a><span id="d480">480px</span><iframe id="i480" class="" width="480" height="550" src="about:blank">w480px</iframe></div>
+                <div class="device w640px"><a id="b640" href="">refresh</a><span id="d640">640px</span><iframe id="i640" class="" width="640" height="550" src="about:blank">w640px</iframe></div>
+                <div class="device w768px"><a id="b768" href="">refresh</a><span id="d768">768px</span><iframe id="i768" class="" width="768" height="550" src="about:blank">w768px</iframe></div>
+                
+                <div class="device w1024px"><a id="b1024" href="">refresh</a><span id="d1024">1024px</span><iframe id="i1024" class=" " width="1024" height="550" src="about:blank">w1024px</iframe></div>
             </section>
         </div>
 

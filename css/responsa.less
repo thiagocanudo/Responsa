@@ -46,11 +46,11 @@ html[xmlns] .clearfix {
 .vp1024{height:768px;}
 
 .h320px{height:320px !important;}
-.h240px{height:240px !important;}
-.h360px{height:360px !important;}
 .h480px{height:480px !important;}
-.h1024px{height:1024px !important;}
+.h640px{height:640px !important;}
+.h1136px{height:1136px !important;}
 .h768px{height:768px !important;}
+.h1024px{height:1024px !important;}
 
 .noWid{width: 100% !important;}
 .wrap{float:none !important;margin:40px auto 20px !important;}
@@ -250,6 +250,17 @@ body{
                     border:2px solid #000;
                     &:first-child{
                         margin-left:25px;
+                    }
+                    a{
+                        position: absolute;
+                        top: -30px;
+                        right: -2px;
+                        display: block;
+                        width: 25px;
+                        height: 27px;
+                        overflow: hidden;
+                        text-indent: -999px;
+                        background: url(@sprite) -120px -29px;
                     }
                 } 
                 span{
