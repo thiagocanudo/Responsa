@@ -3,37 +3,37 @@ $('a#sizes').click(function(){
     $(this).find('span').toggleClass('on');
     $(this).toggleClass('txtOff');
 
-    if( ($('#d240').html() == "240px") && ($('#d480').html() == "480px") && ($('#d320').html() == "320px") && ($('#d768').html() == "768px") && ($('#d1024').html() == "1024px") )
+    if( ($('#d240').html() == "240px") && ($('#d480').html() == "480px") && ($('#d320').html() == "320px") && ($('#d640').html() == "640px") && ($('#d768').html() == "768px") && ($('#d1024').html() == "1024px") )
     {
-        $('#d240').html("240 x 320");
-        $('#d320').html("320 x 240");
-        $('#d480').html("480 x 560");
-        $('#d768').html("768 x 1024");
-        $('#d1024').html("1024 x 768");
+        $('#d240').html("240 x 320 (small phone)");
+        $('#d320').html("320 x 480 (iPhone)");
+        $('#d480').html("480 x 640 (small tablet)");
+        $('#d640').html("640 × 1136 (Iphone 5)");
+        $('#d768').html("768 x 1024 (iPad - Portrait)");
+        $('#d1024').html("1024 x 768 (iPad - Landscape)");
     }else
     {
         $('#d240').html("240px");
         $('#d320').html("320px");
         $('#d480').html("480px");
+        $('#d640').html("640px");
         $('#d768').html("768px");
         $('#d1024').html("1024px");
     }
 
-    $('.w240px').toggleClass('vp240');
-    $('.w240px iframe').toggleClass('vp240');    
+    $('.w240px iframe').toggleClass('h320px');
+    $('.w320px iframe').toggleClass('h480px');
+    $('.w480px iframe').toggleClass('h640px');
+    $('.w640px iframe').toggleClass('h1136px');
+    $('.w1024px iframe').toggleClass('h768px');
+    $('.w768px iframe').toggleClass('h1024px');
 
-    $('.w320px').toggleClass('vp320');
-    $('.w320px iframe').toggleClass('vp320'); 
-
-    $('.w480px').toggleClass('vp480');
-    $('.w480px iframe').toggleClass('vp480'); 
-
-    $('.w768px').toggleClass('vp768');
-    $('.w768px iframe').toggleClass('vp768');
-
-    $('.w1024px').toggleClass('vp1024');
-    $('.w1024px iframe').toggleClass('vp1024'); 
-
+    $('.w240px').toggleClass('h320px');
+    $('.w320px').toggleClass('h480px');
+    $('.w480px').toggleClass('h640px');
+    $('.w640px').toggleClass('h1136px');
+    $('.w1024px').toggleClass('h768px');
+    $('.w768px').toggleClass('h1024px');
 });
 
 
@@ -88,6 +88,19 @@ $('#resolutions li a#bt480').click(function(){
     }
 });
 
+$('#resolutions li a#bt640').click(function(){
+    $(this).find('span').toggleClass('off');
+    $(this).toggleClass('txtOff');
+    
+    if($('.container').hasClass('noWid'))
+    {
+        $('.w640px').animate({height: 'toggle'},"fast");
+    }else
+    {
+        $('.w640px').animate({width: 'toggle'},"fast");
+    }
+});
+
 $('#resolutions li a#bt768').click(function(){
     $(this).find('span').toggleClass('off');
     $(this).toggleClass('txtOff');
@@ -121,33 +134,76 @@ $('#colors li a#color1').click(function(){
 	$('#colors li a span').removeClass('on');
 	$('#colors li a#color1 span').attr('class','on');
     $('body').attr('class','color1');
+    $('.device span').css('color','#fff');
+    $('.device').css('borderColor','#23272D');
 });
 
 $('#colors li a#color2').click(function(){
 	$('#colors li a span').removeClass('on');
 	$('#colors li a#color2 span').attr('class','on');
     $('body').attr('class','color2');
+    $('.device span').css('color','#fff');
+    $('.device').css('borderColor','#000');
 });
 
 $('#colors li a#color3').click(function(){
 	$('#colors li a span').removeClass('on');
 	$('#colors li a#color3 span').attr('class','on');
     $('body').attr('class','color3');
+    $('.device span').css('color','#fff');
+    $('.device').css('borderColor','#000');
 });
 
 $('#colors li a#color4').click(function(){
     $('#colors li a span').removeClass('on');
     $('#colors li a#color4 span').attr('class','on');
     $('body').attr('class','color4');
-    //$('.color4 .device span').attr('class','color3');
+    $('.device span').css('color','#000');
+    $('.device').css('borderColor','#000');
 });
 
 $('#colors li a#color5').click(function(){
 	$('#colors li a span').removeClass('on');
 	$('#colors li a#color5 span').attr('class','on');
     $('body').attr('class','color5');
-    //$('.color5 .device span').attr('class','color3');
+    $('.device span').css('color','#000');
+    $('.device').css('borderColor','#000');
 });
+
+
+
+
+$('#b240').click(function(event){
+    event.preventDefault();
+    $('#i240').attr('src', $('#i240').attr('src'));
+});
+
+$('#b320').click(function(e){
+    e.preventDefault();$('#i320').attr('src', $('#i320').attr('src'));
+});
+
+$('#b480').click(function(e){
+    e.preventDefault();
+    $('#i480').attr('src', $('#i480').attr('src'));
+});
+
+$('#b640').click(function(e){
+    e.preventDefault();
+    $('#i640').attr('src', $('#i640').attr('src')); 
+});
+
+$('#b768').click(function(e){
+    e.preventDefault();
+    $('#i768').attr('src', $('#i768').attr('src')); 
+});
+
+$('#b1024').click(function(e){
+    e.preventDefault();
+    $('#i1024').attr('src', $('#i1024').attr('src')); 
+});
+
+
+
 
 
 // $(document).ready(function(){

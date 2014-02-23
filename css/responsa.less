@@ -34,21 +34,29 @@ html[xmlns] .clearfix {
 .w240px{width:240px;}
 .w320px{width:320px;}
 .w480px{width:480px;}
+.w640px{width:640px;}
 .w768px{width:768px;}
 .w1024px{width:1024px;}
-
 
 .vp240{height:320px;}
 .vp320{height:240px;}
 .vp480{height:560px;}
+.vp640{height:640px;}
 .vp768{height:1024px;}
 .vp1024{height:768px;}
+
+.h320px{height:320px !important;}
+.h480px{height:480px !important;}
+.h640px{height:640px !important;}
+.h1136px{height:1136px !important;}
+.h768px{height:768px !important;}
+.h1024px{height:1024px !important;}
 
 .noWid{width: 100% !important;}
 .wrap{float:none !important;margin:40px auto 20px !important;}
 
 @fonte: 'Cuprum', sans-serif;
-@sprite:    "../images/sprite-responsa.png";
+@sprite:    "../images/sprite-responsa.png?23";
 @bg:    "../images/bg-top.jpg";
 
 @mLeftDefault:25px;
@@ -74,7 +82,7 @@ body{
 }
 
 .container{
-    width:2972px;
+    width:3620px;
     a{
         text-decoration: none;
         outline: none;
@@ -87,6 +95,7 @@ body{
         background-repeat: repeat-x;
 
         #top{
+            position: relative;
             width: 100%;
             height: 80px;
             //margin-left: @mLeftDefault;
@@ -96,9 +105,13 @@ body{
             h1{
                 width: 340px;
                 height: 62px;
+                overflow: hidden;
+                text-indent: -999px;
                 margin:10px 0 0 @mLeftDefault;
                 background: url(@sprite) -187px -22px;
             }
+
+            #likeFb{position:absolute;top:20px;left:860px;width:100px;height:30px;}
         }
         form{
             display: block;
@@ -131,7 +144,7 @@ body{
                     float: left;
                     margin: 0 6px 0 0;
                     font-family: @fonte;
-                    font-size:19px;
+                    font-size:17px;
                     padding-right: 8px;
                     a{
                         display: block;
@@ -151,7 +164,7 @@ body{
                 }
             }
             ul#resolutions{
-                width: 365px;
+                width: 405px;
                 margin:0;
                 li{
                     span.off{
@@ -163,7 +176,7 @@ body{
                 }
             }
             ul#options{
-                width: 225px;
+                width: 200px;
                 margin:0;
                 li{
                     span{
@@ -236,12 +249,23 @@ body{
 
             .device{
                     position:relative;
-                    height:550px;
+                    height:675px;
                     float:left;
                     margin:40px 0 20px 15px;
                     border:2px solid #000;
                     &:first-child{
                         margin-left:25px;
+                    }
+                    a{
+                        position: absolute;
+                        top: -30px;
+                        right: -2px;
+                        display: block;
+                        width: 25px;
+                        height: 27px;
+                        overflow: hidden;
+                        text-indent: -999px;
+                        background: url(@sprite) -120px -29px;
                     }
                 } 
                 span{
@@ -253,10 +277,9 @@ body{
                     padding:0 5px;
                     font-family:@fonte;
                     color:#fff;
-                    background:#282D34
                 }
                 iframe{
-                    height:550px;
+                    height:675px;
                     background:#fff;
                     border:0;
                 }                      
