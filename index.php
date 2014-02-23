@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Responsa - Responsive Design Test</title>
+        <title>Responsa - Responsive web Design Test</title>
         <meta name="description" content="Responsa - Testes para Desenvolvimento Responsivo, Responsive Design Test">
         <meta name="keywords" content="Responsive test, Responsive testing tool, Responsive test online, Responsive test browser, Responsive test, viewport resize, viewport resize responsive, Viewport Resizer, Responsive Design Bookmarklet"/>
         <meta name="viewport" content="width=device-width">
@@ -32,7 +32,7 @@
     <div class="container">
         <header>
             <div id="top">
-                <h1>Responsa - Responsive Design Test online tool</h1>
+                <h1>Responsa - Responsive web Design Test online tool</h1>
                 <h2>Responsa - Testes para desenvolvimento de sites responsivos</h2>
                 <div id="likeFb">
                     <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fthiagocanudo.com.br%2Fresponsa%2F&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21&amp;appId=1425807357648288" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
