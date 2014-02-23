@@ -7,7 +7,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Responsa - Responsive Design Test</title>
-        <meta name="description" content="Responsa - Testes para desenvolvimento responsivo, responsive design test">
+        <meta name="description" content="Responsa - Testes para Desenvolvimento Responsivo, Responsive Design Test">
+        <meta name="keywords" content="Responsive test, Responsive testing tool, Responsive test online, Responsive test browser, Responsive test, viewport resize, viewport resize responsive, Viewport Resizer, Responsive Design Bookmarklet"/>
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -16,7 +17,7 @@
         <link rel="icon" type="image/png" href="http://www.thiagocanudo.com.br/responsa/favicon.ico?v=02">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-        <meta property="og:title" content="Responsa - Testes para desenvolvimento responsivo" />
+        <meta property="og:title" content="Responsa - Testes para desenvolvimento de sites responsivos" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://thiagocanudo.com.br/responsa/" />
         <meta property="og:image" content="http://thiagocanudo.com.br/responsa/images/ico/facebook.png" />
@@ -31,7 +32,8 @@
     <div class="container">
         <header>
             <div id="top">
-                <h1>Responsa - responsive design test </h1>
+                <h1>Responsa - Responsive Design Test online tool</h1>
+                <h2>Responsa - Testes para desenvolvimento de sites responsivos</h2>
                 <div id="likeFb">
                     <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fthiagocanudo.com.br%2Fresponsa%2F&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21&amp;appId=1425807357648288" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
                 </div>
