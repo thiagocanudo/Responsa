@@ -114,8 +114,9 @@ body{
             #likeFb{position:absolute;top:20px;left:860px;width:100px;height:30px;}
         }
         form{
+            position: relative;
             display: block;
-            width: 100%;
+            width: 950px;
             height: 60px;
             input[type=text]{
                 width: 920px;
@@ -128,6 +129,20 @@ body{
                 color:#A9A9A9;
                 text-indent:10px;
                 border:2px solid @colorBorder; 
+            }
+            button{
+                position: absolute;
+                top: 16px;
+                right: 7px;
+                width: 34px;
+                height: 34px;
+                font-family: @fonte;
+                font-size: 17px;
+                color:#fff;
+                letter-spacing: -1px;
+                text-transform: capitalize;
+                border: 0;
+                background: url(../images/bt-ok.png);
             }
         }
         nav{
