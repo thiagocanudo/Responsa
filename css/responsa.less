@@ -56,7 +56,7 @@ html[xmlns] .clearfix {
 .wrap{float:none !important;margin:40px auto 20px !important;}
 
 @fonte: 'Cuprum', sans-serif;
-@sprite:    "../images/sprite-responsa.png?23";
+@sprite:    "../images/sprite-responsa.png?2303";
 @bg:    "../images/bg-top.jpg";
 
 @mLeftDefault:25px;
@@ -110,7 +110,15 @@ body{
                 margin:10px 0 0 @mLeftDefault;
                 background: url(@sprite) -187px -22px;
             }
-
+            h2{
+                position: absolute;
+                top:-9px;
+                left:-9px;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+                text-indent: -999px;
+            }
             #likeFb{position:absolute;top:20px;left:860px;width:100px;height:30px;}
         }
         form{
@@ -130,7 +138,20 @@ body{
                 text-indent:10px;
                 border:2px solid @colorBorder; 
             }
-            button{position:absolute;top:16px;right:7px;width:34px;height:34px;background: url(../images/bt-ok.png);border:0;}
+            button{
+                position: absolute;
+                top: 16px;
+                right: 7px;
+                width: 34px;
+                height: 34px;
+                font-family: @fonte;
+                font-size: 17px;
+                color:#fff;
+                letter-spacing: -1px;
+                text-transform: capitalize;
+                border: 0;
+                background: url(@sprite) -535px -45px;
+            }
         }
         nav{
             width: 925px;
@@ -287,6 +308,3 @@ body{
                 }                      
             }
         }
-
-
-
