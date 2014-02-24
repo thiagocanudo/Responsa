@@ -38,6 +38,7 @@
             </div>
             <form method="post" id="frm_url">
                 <input type="text" name="url" placeholder="Digite seu site" value="" />
+                <button></button>
             </form>
 
             <nav>
