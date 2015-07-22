@@ -1,0 +1,310 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+/*classes communs*/
+.fRight{float:right;}
+.dNone{display:none;}
+.dBlock{display:block;}
+.mTop10{margin-top:10px !important;}
+.mTop20{margin-top:20px !important;}
+.mBot20{margin-bottom:20px !important;}
+.upercase{text-transform:uppercase;}
+.noBorder{border:none !important;}
+.txtOff{color: #989CA3 !important;}
+
+/*classes jQuery*/
+.w240px{width:240px;}
+.w320px{width:320px;}
+.w480px{width:480px;}
+.w640px{width:640px;}
+.w768px{width:768px;}
+.w1024px{width:1024px;}
+
+.vp240{height:320px;}
+.vp320{height:240px;}
+.vp480{height:560px;}
+.vp640{height:640px;}
+.vp768{height:1024px;}
+.vp1024{height:768px;}
+
+.h320px{height:320px !important;}
+.h480px{height:480px !important;}
+.h640px{height:640px !important;}
+.h1136px{height:1136px !important;}
+.h768px{height:768px !important;}
+.h1024px{height:1024px !important;}
+
+.noWid{width: 100% !important;}
+.wrap{float:none !important;margin:40px auto 20px !important;}
+
+@fonte: 'Cuprum', sans-serif;
+@sprite:    "../images/sprite-responsa.png?2303";
+@bg:    "../images/bg-top.jpg";
+
+@mLeftDefault:25px;
+
+@colorBorder:   #272C33;
+@colorNav:      #313741;
+@colorTest1:    #464F5C;
+@colorTest2:    #282C33;
+@color1:        #000;
+@color2:        #23272D;
+@color3:        #38404C;
+@color4:        #fff;
+@color5:        "http://www.thiagocanudo.com.br/images/transparent.png";
+
+.color1{background-color:@color1;}
+.color2{background-color:@color2;}
+.color3{background-color:@color3;}
+.color4{background-color:@color4;}
+.color5{background-image:url(@color5);}
+
+body{    
+
+}
+
+.container{
+    width:3620px;
+    a{
+        text-decoration: none;
+        outline: none;
+    }
+    header{
+        width:100%;
+        height:197px;
+
+        background-image:url(@bg);
+        background-repeat: repeat-x;
+
+        #top{
+            position: relative;
+            width: 100%;
+            height: 80px;
+            //margin-left: @mLeftDefault;
+            margin-top:-1px;
+            border-top:1px solid lime;
+            background: url(@sprite) repeat-x 0 61px;
+            h1{
+                width: 340px;
+                height: 62px;
+                overflow: hidden;
+                text-indent: -999px;
+                margin:10px 0 0 @mLeftDefault;
+                background: url(@sprite) -187px -22px;
+            }
+            h2{
+                position: absolute;
+                top:-9px;
+                left:-9px;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+                text-indent: -999px;
+            }
+            #likeFb{position:absolute;top:20px;left:860px;width:100px;height:30px;}
+        }
+        form{
+            position: relative;
+            display: block;
+            width: 950px;
+            height: 60px;
+            input[type=text]{
+                width: 920px;
+                height: 40px;
+                line-height: 40px;
+                margin-top:10px;
+                margin-left: @mLeftDefault;
+                font-family: @fonte;
+                font-size:20px;
+                color:#A9A9A9;
+                text-indent:10px;
+                border:2px solid @colorBorder; 
+            }
+            button{
+                position: absolute;
+                top: 16px;
+                right: 7px;
+                width: 34px;
+                height: 34px;
+                font-family: @fonte;
+                font-size: 17px;
+                color:#fff;
+                letter-spacing: -1px;
+                text-transform: capitalize;
+                border: 0;
+                background: url(@sprite) -535px -45px;
+            }
+        }
+        nav{
+            width: 925px;
+            height: 45px;
+            margin-left: @mLeftDefault;
+            background: @colorNav;
+            ul{
+                height: 45px;
+                float: left;
+                padding: 0;
+                li{
+                    height: 45px;
+                    float: left;
+                    margin: 0 6px 0 0;
+                    font-family: @fonte;
+                    font-size:17px;
+                    padding-right: 8px;
+                    a{
+                        display: block;
+                        height: 45px;
+                        line-height: 45px;
+                        font-weight: normal;
+                        color:#fff;
+                    }
+                    span{
+                        display:block;
+                        width: 17px;
+                        height: 17px;
+                        float: left;
+                        margin: 16px 5px 0 5px;
+                        background: url(@sprite) -25px -64px;
+                    }
+                }
+            }
+            ul#resolutions{
+                width: 405px;
+                margin:0;
+                li{
+                    span.off{
+                        background: url(@sprite) -5px -64px;
+                    }                 
+                    &:first-child{
+                        margin-left:5px;
+                    }
+                }
+            }
+            ul#options{
+                width: 200px;
+                margin:0;
+                li{
+                    span{
+                        background: url(@sprite) -45px -64px;
+                    }
+                    span.off{
+                        background: url(@sprite) -65px -64px;
+                    }                 
+                    &:first-child{
+                        margin-left:5px;
+                    }
+                    span.on{
+                        background: url(@sprite) -45px -64px;
+                    } 
+                }
+            }
+        }
+            ul#colors{
+                width: 320px; 
+                float: right;
+                margin:0;
+
+                li{
+                    width: 46px;
+                    height: 28px;
+                    overflow: hidden;
+                    text-indent: -999px;
+                    float: left: ;
+                    margin: 7px 10px 7px 0;
+                    background: #495361;
+                    border-radius: 4px;
+
+                    a{
+                        width: 56px;
+                        height: 28px;
+                    }
+
+                    span{
+                        margin: 6px 0 0 5px;
+                        background: url(@sprite) -65px -64px;
+                    }   
+                    
+                    div{
+                        width: 20px;
+                        height: 26px;
+                        float: right;
+                        margin: 1px 3px 1px 11px;
+                        border-top-right-radius: 4px; border-bottom-right-radius: 4px;
+                    }   
+
+                    a#color1 div{background: @color1;}
+                    a#color2 div{background: @color2;}
+                    a#color3 div{background: @color3;}
+                    a#color4 div{background: @color4;}
+                    a#color5 div{background: url(@color5);}
+
+                    span.on{
+                        background:url(@sprite) -45px -64px;
+                    }  
+                }
+            }
+        }
+
+        #deck{
+            width:100%;
+
+            section{
+                width:100%;
+            }
+
+            .device{
+                    position:relative;
+                    height:675px;
+                    float:left;
+                    margin:40px 0 20px 15px;
+                    border:2px solid #000;
+                    &:first-child{
+                        margin-left:25px;
+                    }
+                    a{
+                        position: absolute;
+                        top: -30px;
+                        right: -2px;
+                        display: block;
+                        width: 25px;
+                        height: 27px;
+                        overflow: hidden;
+                        text-indent: -999px;
+                        background: url(@sprite) -120px -29px;
+                    }
+                } 
+                span{
+                    position:absolute;
+                    top:-23px;
+                    left:0;
+                    display:block;
+                    height:23px;
+                    padding:0 5px;
+                    font-family:@fonte;
+                    color:#fff;
+                }
+                iframe{
+                    height:675px;
+                    background:#fff;
+                    border:0;
+                }                      
+            }
+        }
