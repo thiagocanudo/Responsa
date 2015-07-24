@@ -24,6 +24,8 @@
         <meta property="og:site_name" content="Responsa" />
         <meta property="og:description" content="Desenvolva sites responsivos e teste várias resoluções diferentes no mesmo browser." />
 
+        <link type="text/plain" rel="author" href="http://www.thiagocanudo.com.br/responsa/humans.txt" />
+
     </head>
     <body class="color3">
         <!--[if lt IE 7]>
