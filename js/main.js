@@ -18,7 +18,7 @@ $('document').ready(function(){
 		return false;
 	});
 
-	defaultUrl = 'http://getbootstrap.com/2.3.2/';
+	defaultUrl = 'http://unsemantic.com/';
 	$('#deck iframe').attr('src', defaultUrl);
 
 });
