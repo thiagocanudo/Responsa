@@ -9,7 +9,7 @@ $('document').ready(function(){
 			inp.attr('readonly', false);
 			inp.css('opacity', 1);
 		}, 2000);
-		if (!url.match(/^http:\/\//)){
+		if (!url.match(/^https?:\/\//)){
 			url = 'http://' + url;
 			inp.val(url);
 		}
@@ -18,7 +18,7 @@ $('document').ready(function(){
 		return false;
 	});
 
-	defaultUrl = 'http://getbootstrap.com/2.3.2/';
+	defaultUrl = 'http://alistapart.com/article/responsive-web-design';
 	$('#deck iframe').attr('src', defaultUrl);
 
 });

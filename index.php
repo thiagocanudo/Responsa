@@ -41,18 +41,18 @@
                 </div>
             </div>
             <form method="post" id="frm_url">
-                <input type="text" name="url" placeholder="Digite seu site" value="" />
+                <input type="text" name="url" placeholder="Your site" value="" />
                 <button>ok</button>
             </form>
 
             <nav>
                 <ul id="resolutions">
-                    <li><a id="bt240" href="javascript:;"><span></span>240</a></li>
                     <li><a id="bt320" href="javascript:;"><span></span>320</a></li>
                     <li><a id="bt480" href="javascript:;"><span></span>480</a></li>
                     <li><a id="bt640" href="javascript:;"><span></span>640</a></li>
                     <li><a id="bt768" href="javascript:;"><span></span>768</a></li>
                     <li><a id="bt1024" href="javascript:;"><span></span>1024</a></li>
+                    <li><a id="bt1280" href="javascript:;"><span></span>1280</a></li>
                 </ul>
                 <ul id="options">
                     <li><a id="sizes" href="javascript:;" class="txtOff"><span class="off"></span>size devices</a></li>
@@ -70,14 +70,13 @@
 
         <div id="deck" class="clearfix">
             <section class="clearfix">
-                <div class="device w240px"><a id="b240" href="">refresh</a><span id="d240">240px</span><iframe id="i240" class="" width="240" height="550" src="about:blank">w240px</iframe></div>
                 
                 <div class="device w320px"><a id="b320" href="">refresh</a><span id="d320">320px</span><iframe id="i320" class="" width="320" height="550" src="about:blank">w320px</iframe></div>
                 <div class="device w480px"><a id="b480" href="">refresh</a><span id="d480">480px</span><iframe id="i480" class="" width="480" height="550" src="about:blank">w480px</iframe></div>
                 <div class="device w640px"><a id="b640" href="">refresh</a><span id="d640">640px</span><iframe id="i640" class="" width="640" height="550" src="about:blank">w640px</iframe></div>
                 <div class="device w768px"><a id="b768" href="">refresh</a><span id="d768">768px</span><iframe id="i768" class="" width="768" height="550" src="about:blank">w768px</iframe></div>
-                
                 <div class="device w1024px"><a id="b1024" href="">refresh</a><span id="d1024">1024px</span><iframe id="i1024" class=" " width="1024" height="550" src="about:blank">w1024px</iframe></div>
+                <div class="device w1280px"><a id="b1280" href="">refresh</a><span id="d1280">1280px</span><iframe id="i1280" class=" " width="1280" height="550" src="about:blank">w1280px</iframe></div>
             </section>
         </div>
     </div>
