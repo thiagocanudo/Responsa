@@ -6,9 +6,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Responsa - Responsive web Design Test</title>
-        <meta name="description" content="Responsa - Testes para Desenvolvimento Responsivo, Responsive Design Test">
-        <meta name="keywords" content="Responsive test, Responsive testing tool, Responsive test online, Responsive test browser, Responsive test, viewport resize, viewport resize responsive, Viewport Resizer, Responsive Design Bookmarklet"/>
+        <title>Responsa - Responsive Test on line tool</title>
+        <meta name="description" content="Responsa - Responsive Design Test online tool">
+        <meta name="keywords" content="Responsive test online tool, Responsive test localhost, Responsive test browser, responsive test google, test responsive website, responsive simulator, test site mobile"/>
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -17,12 +17,12 @@
         <link rel="icon" type="image/png" href="http://www.thiagocanudo.com.br/responsa/favicon.ico?v=02">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-        <meta property="og:title" content="Responsa - Testes para desenvolvimento de sites responsivos" />
+        <meta property="og:title" content="Responsa - Responsive Test online tool" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://thiagocanudo.com.br/responsa/" />
         <meta property="og:image" content="http://thiagocanudo.com.br/responsa/images/ico/facebook.png" />
         <meta property="og:site_name" content="Responsa" />
-        <meta property="og:description" content="Desenvolva sites responsivos e teste várias resoluções diferentes no mesmo browser." />
+        <meta property="og:description" content="Responsive test online tool - responsive simulator multiple browsers and viewport devices" />
 
         <link type="text/plain" rel="author" href="http://www.thiagocanudo.com.br/responsa/humans.txt" />
 
@@ -34,14 +34,14 @@
     <div class="container">
         <header>
             <div id="top">
-                <h1>Responsa - Responsive web Design Test online tool</h1>
-                <h2>Responsa - Testes para desenvolvimento de sites responsivos</h2>
+                <h1>Responsa - Responsive Test online tool.</h1>
+                <h2>Responsa - Responsive viewport simulator</h2>
                 <div id="likeFb">
                     <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fthiagocanudo.com.br%2Fresponsa%2F&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21&amp;appId=1425807357648288" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
                 </div>
             </div>
             <form method="post" id="frm_url">
-                <input type="text" name="url" placeholder="Your site" value="" />
+                <input type="text" name="url" placeholder="Test your site" value="" />
                 <button>ok</button>
             </form>
 
