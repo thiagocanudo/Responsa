@@ -41,7 +41,7 @@
                 </div>
             </div>
             <form method="post" id="frm_url">
-                <input type="text" name="url" placeholder="Test your site" value="" />
+                <input type="text" name="url" placeholder="Your website URL" value="" />
                 <button>ok</button>
             </form>
 

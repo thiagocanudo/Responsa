@@ -18,7 +18,7 @@ $('document').ready(function(){
 		return false;
 	});
 
-	defaultUrl = 'http://alistapart.com/article/responsive-web-design';
+	defaultUrl = 'http://muse.adobe.com/';
 	$('#deck iframe').attr('src', defaultUrl);
 
 });
