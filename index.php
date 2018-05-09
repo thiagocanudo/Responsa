@@ -36,6 +36,11 @@
             <div id="top">
                 <h1>Responsa - Responsive Test online tool.</h1>
                 <h2>Responsa - Responsive viewport simulator</h2>
+
+            <div class="banner">
+                <a href="http://www.canecadodev.com"><img src="https://i.imgur.com/gyddCxa.png" alt=-"Caneca do Dev" title="Caneca do Dev"></a>
+            </div>
+
                 <div id="likeFb">
                     <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fthiagocanudo.com.br%2Fresponsa%2F&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21&amp;appId=1425807357648288" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
                 </div>
